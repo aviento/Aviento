@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aviento</string>
+    <string name="buscar">Search</string>
+    <string name="buscar_por">Search for</string>
+    <string name="labe_tipo_actividad">Type of activity:</string>
+    <string name="label_empresa">Company:</string>
+    <string name="label_ciudad">City:</string>
+    <string name="label_direccion">Address:</string>
+    <string name="label_valor">Value:</string>
+    <string name="label_phone">Phone:</string>
+    <string name="Reservar">Reserve Now</string>
+    <string name="recomendados">Recommended</string>
+    <string name="favoritoac">Add favorite</string>
+    <string name="favoritoin">Delete favorite</string>
+    <string name="mostrar_favoritos">Show favorites</string>
+    <string name="mostrar_todos">Show all</string>
+    <string name="mis_favoritos"> My favorites</string>
+    <string name="error_email">Invalid email</string>
+    <string name="error_nombre">You must enter the name</string>
+    <string name="error_pass">You must enter the password</string>
+    <string name="registrar">Sign in</string>
+    <string name="iniciar_sesion">Login</string>
+    <string name="correo">Email</string>
+    <string name="contraseña">Password</string>
+    <string name="guardar">Save</string>
+    <string name="nombres">Names</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="verifica_contraseña">Verify your password</string>
+    <string name="usuario_no_existe">Username does not exist</string>
+    <string name="erro_conexion">Connection failed</string>
+    <string name="crear_usuario">User created successfully</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

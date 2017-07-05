@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Androidapp\\Aviento\\library\\build\\intermediates\\res\\merged\\release\\layout\\amu_text_bubble.xml",
+        "source": "E:\\Androidapp\\Aviento\\library\\res\\layout\\amu_text_bubble.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Aviento\\library\\build\\intermediates\\res\\merged\\release\\layout\\amu_webview.xml",
+        "source": "E:\\Androidapp\\Aviento\\library\\res\\layout\\amu_webview.xml"
+    },
+    {
+        "merged": "E:\\Androidapp\\Aviento\\library\\build\\intermediates\\res\\merged\\release\\layout\\amu_info_window.xml",
+        "source": "E:\\Androidapp\\Aviento\\library\\res\\layout\\amu_info_window.xml"
+    }
+]

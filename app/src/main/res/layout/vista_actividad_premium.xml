@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:layout_marginRight="15dp"
+            android:text="Nombre de la actividad"
+            android:textColor="@android:color/black"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción de la actividad"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/titulo"
+                android:text="@string/labe_tipo_actividad" />
+            <TextView
+                android:id="@+id/tipo"
+                style="@style/campo"
+                android:text="Tipo de la actividad"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/titulo"
+                android:text="@string/label_empresa" />
+            <TextView
+                android:id="@+id/empresa"
+                style="@style/campo"
+                android:text="Nombre de la empresa" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/titulo"
+                android:text="@string/label_ciudad" />
+            <TextView
+                android:id="@+id/ciudad"
+                style="@style/campo"
+                android:text="Nombre de la ciudad" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/titulo"
+                android:text="@string/label_direccion" />
+            <TextView
+                android:id="@+id/direccion"
+                style="@style/campo"
+                android:text="Dirección" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/titulo"
+                android:text="@string/label_valor" />
+            <TextView
+                android:id="@+id/valor"
+                style="@style/campo"
+                android:text="valor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center_vertical"
+                style="@style/titulo"
+                android:text="@string/label_phone" />
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/telefono"
+                style="@style/campo"
+                android:text="valor"/>
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:onClick="llamar"
+                android:src="@drawable/call"/>
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Reservar"
+            android:background="@color/verde"
+            android:onClick="enviarCorreo"/>
+    </LinearLayout>
+</ScrollView>

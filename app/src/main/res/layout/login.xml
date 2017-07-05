@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo">
+
+    <EditText
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/correo"
+        android:id="@+id/etUsuario"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="@string/contraseña"
+        android:inputType="textPassword"
+        android:layout_below="@+id/etUsuario"
+        android:id="@+id/etContra"/>
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/etContra"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iniciar_sesion"
+            android:id="@+id/btnIngresar"
+            android:layout_below="@+id/etContra"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registrar"
+            android:id="@+id/btnRegistrar"
+            android:onClick="registrar"
+           />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_aviento"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/etUsuario"
+        android:layout_alignStart="@+id/etUsuario"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp" />
+</RelativeLayout>
